@@ -1,0 +1,21 @@
+server:
+  port: 8080
+mybatisplus:
+  jdbc-driver: com.mysql.jdbc.Driver
+  jdbc-url: jdbc:mysql://140.143.28.4:33306/spring-boot-demo?useUnicode=true&characterEncoding=utf-8&useSSL=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+  username: root
+  password: root
+#工程位置默认值为user.dir
+#mybatisplus.project=G:/fly/demo
+#包名
+  base-package: com.ntm.mybatisplus
+  #entity位置默认值为 entity
+  entity-package: model
+  #dao位置默认值为 dao
+  dao-package: dao
+  #xml位置默认值为 resources/mapper
+  xml-package: mapper
+  #是否使用lombok默认值为true
+  enable-lombok: true
+  #是否开启swagger注释默认值为true
+  enable-swagger: true
